@@ -1,0 +1,114 @@
+BLACK SAM 
+32:55 (https://www.youtube.com/watch?v=Q2imkhmhOFo&t=679s)
+
+
+(1) inventories - (2) reports - (3)products -(4)settings
+
+(1)inventories(inventarios) : --boton (go back)   (actualizar)  (new inventory) --
+
+#vision de primera pagina#
+ -standard(ingreso):
+	date(fecha): nov 01,2018 1:21pm
+	product : 10 products in 5 location
+	RT value: 5955$
+	WS value: 1164$
+
+ -invoice (factura) : 
+	date(fecha): nov 01,2018 1:21pm
+	product : 10 products in 5 location
+	RT value: 5955$
+	WS value: 1164$
+
+   --(new inventory)--
+
+#vision de pagina nuevo inventario al pulsar el boton#
+ (1.1) new inventory
+	date: nov 01,2018 1:21pm     --(edit)--
+	description : 
+	note: 
+--(cancel)--                                --(start inventory)--
+
+#ventana cuando se pulsa inicio de inventario#
+
+(1.2) start inventory
+
+--(edit)-- --(sort)-- --(resume)-- --(delete)-- --(add product)--
+
+#pagina que se muestra cuando presionas agregar producto#
+
+(1.3) add product 
+--(go back)-- --(location)edit--
+
+buscador : #en el buscador se debe colocar el nombre o marca del licor#    --(cancel)-- 
+
+#al selecionar el licor aparece otra ventana#
+
+old parr                              --(swicth product)--
+ per bottle
+ 1.00 litre bottle
+ full: 66.00 Empty: 33.00
+ RT:34.05$     WS: 202.00$
+                                                     --(edit)--
+
+quantity : #en el buscador se debe colocar la cantidad del licor# 
+
+--(Bottle)-- --(OZ)-- --(Case)--
+  
+
+(2)reports(informe): 
+ -usage report (informe de uso) 
+ -stock on hand report(informe de existencias en mano)
+ -line by line report(informe linea por linea)
+ -purchase order(orden de compra)
+
+(4)setting(opciones):
+ -locations(ubicacion)
+ -categories (categorias)
+ -vendors (vendedores)
+ -enable & syn device(habilitar y sincronizar dispositivos)
+ -bluethooth scale (escala de bluethooth)
+
+(3)Products:
+ -alphabetical (cocteles y botellas ordenadas alfabeticamente)
+ -By category (por botellas)
+ 
+  ##al sellecionar un producto despliega una ventana donde indica la descripcion del producto##
+	product name: Polar
+	category: cerveza nacional ---boton de editar---
+	container: botella ---boton de editar ---
+	case size : 0.75mlts
+	retail prize (precio al por menor): 0.75 $
+	wholesale price : 20 dolars$
+	empty wheight : 29 lbs
+	full wheight : 160 lbs
+	container size : 32 cervezas
+	units : ml-litre-gal-oz-each-lbs ---boton de editar---
+	vendors ---boton de editar---
+	product code :
+	ideal pour cost % : 21.43$
+	---boton de cancel delete save---
+
+
+
+
+
+https://www.lawebdelprogramador.com/foros/Python/1655134-SISTEMA-INVENTARIO.html
+( Codigo para inventario ) 
+
+https://j2logo.com/tutorial-flask-leccion-4-login/
+(login con flask)
+
+(referencia de interacion)
+https://ideakreativa.net/18-mejores-ejemplos-de-animacion-css/
+https://webdesign.tutsplus.com/es/articles/15-inspiring-examples-of-css-animation-on-codepen--cms-23937 
+
+https://es.freelogodesign.org/
+LOGOTIPOS GRATIS
+
+PAGE OF ESTRUCTURE
+https://github.com/FaztWeb/login-form-one ( estructura de una base de datos coding ) page 3
+https://codepen.io/ainalem/pen/EQXjOR ( login ) page 2
+https://codepen.io/shayanea/pen/eVMMgO ( estructura recuperar contraseña o registrarse) page2
+https://codepen.io/fluxus/pen/gPWvZm (menu desplegable) page 3
+
+https://github.com/FaztWeb/flask-crud-contacts-app (codigo para crear inventario)
